@@ -1,0 +1,13 @@
+【デプロイまでの流れ】
+    基本的には、下記のURLが参考になる
+
+    ただ、DBを追加したあとに、エラーを吐いた
+    ```
+    --> Connecting to postgresql-flexible-06797
+    dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+    Referenced from: /usr/local/lib/libpq.5.dylib
+    Reason: image not found
+    ```
+
+    1. loaclのpostgresqlをアップデート
+    これで行けた。
