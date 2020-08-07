@@ -1,4 +1,6 @@
 __pycache__
 *.pyc
-env/
+.env
 db.sqlite3
+.project
+docker-django-herokuの学習まとめ.txt
